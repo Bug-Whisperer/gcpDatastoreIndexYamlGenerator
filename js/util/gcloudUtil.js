@@ -14,4 +14,8 @@ function getGcloudDatastoreIndexesText(){
     return result.stdout;
 }
 
+function isFalse(){
+    return false;
+}
+
 module.exports = { setGcloudProject, getGcloudDatastoreIndexesText }

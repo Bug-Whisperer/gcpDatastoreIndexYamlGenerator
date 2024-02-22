@@ -6,6 +6,14 @@ function cleanIndexYamlFile(){
     spawnSync('rm',[ENUMS.OUTPUT_FILE_PATH]);
 }
 
+function isDummy(){
+    return true
+}
+
+function isFalse(){
+    return false
+}
+
 function generateIndexYamlContent(rawContent){
     cleanIndexYamlFile();
     let indexYamlContent = initFileContent();

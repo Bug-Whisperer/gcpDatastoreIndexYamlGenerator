@@ -10,6 +10,10 @@ function isDummy(){
     return true
 }
 
+function isFalse(){
+    return false
+}
+
 function generateIndexYamlContent(rawContent){
     cleanIndexYamlFile();
     let indexYamlContent = initFileContent();
